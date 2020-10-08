@@ -1,6 +1,6 @@
 require 'pry'
 class LibraryParser
-  def files
+  def l
     data_path = File.join(File.dirname(__FILE__), '..', 'db', 'data')
     Dir.entries(data_path)[2..-1]
   end
