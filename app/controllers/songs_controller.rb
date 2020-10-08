@@ -9,6 +9,6 @@ class SongsController < ApplicationController
         @song = Artist.find(params[:id])
         
 
-        erb :
+        erb :song
     end
 end
